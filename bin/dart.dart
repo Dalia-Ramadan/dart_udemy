@@ -96,7 +96,6 @@ void main() {
 -  (5
 }
  */
-
 //-----------------
 var v = 4 ;
 v++;
@@ -116,4 +115,56 @@ print(++oo);
 var hh = 4;
 print(hh++);
 //----------------
+var t = 5;
+print(t is int);
+print(t is! int);
+//-----------------and(&&)
+var aa = 8;
+print(aa > 4 && aa < 9);
+//-----------------or(||)
+var aaa = 4 ; 
+print(aaa < 3 || aaa>1);
+///////////////////////////////////////
+print('////////////////////////////////////////');
+//////////////////////////////////////if statements
+var xx = 6;
+if (xx > 9) {
+    print('xx > 9');
+  }
+//----------------------------
+if(xx > 9) {
+    print('xx > 9');
+  } else {
+    print('xx < 9');
+  }
+//---------------------------
+if(xx is double) {
+    print('xx is double');
+  }
+else if(xx is String) {
+    print('xx is String');
+  }
+else {
+  print("none of above");
+}
+//---------------------------
+if(xx < 9){
+  if (xx is String){
+    print('xx is String');
+  }
+  else{
+    print('xx isnot String');
+  }
+}
+else {
+  print('xx > 9');
+}
+///////////////////////////////////////
+  print('////////////////////////////////////////');
+//////////////////////////////////////conditional operators
+var kk = 8 , mm = 9;
+kk > mm ? print('kk < mm') : print('kk > mm');
+//------------------------
+var tt = kk<mm ? kk:mm;
+print(tt);
 }
