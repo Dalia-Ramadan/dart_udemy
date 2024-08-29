@@ -1,4 +1,3 @@
-import 'dart:io';
 void main() {
   /////////////////////////////print:-
   print('hello dart');
@@ -275,5 +274,23 @@ for(var i = 0 ; i <= 10 ; i++){
   if(i == 4){break;}
 }
 //----------------
-
+  print('//////////////////////////////////');
+a:
+  for(var i = 1 ; i <= 10 ; i++){
+    b:
+    for(var j = 1 ; j <= 10 ; j++){
+      print('$i * $j = ${i * j}');
+      if(j == 3){break a;}
+    }
+  }
+//----------------
+  print('//////////////////////////////////');
+  a:
+  for(var i = 1 ; i <= 10 ; i++){
+    b:
+    for(var j = 1 ; j <= 10 ; j++){
+      if(j == 3){continue a;}
+      print('$i * $j = ${i * j}');
+    }
+  }
 }
