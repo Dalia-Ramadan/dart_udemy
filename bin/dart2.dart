@@ -59,12 +59,17 @@ print('////////////////////////////////////////////////');
   print('////////////////////////////////////////////////');
   print('////////////////////////////////////////////////');
 var s1 = 5 ;
-print(s1.isOdd);
-print(s1.isEven);
-print(s1.isFinite);
+  print(s1.isOdd);
+  print(s1.isEven);
+  print(s1.isFinite);
   print(s1.isInfinite);
   print(s1.isNaN);
   print(s1.isNegative);
   print(s1.abs());
-
+var r = 5.5;
+  print(r.round());
+  print(r.floor());
+  print(r.truncate());
+  print(r.ceil());
+                      print(r.remainder(s1));
 }
