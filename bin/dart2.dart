@@ -28,7 +28,7 @@ int year = int.parse(stdin.readLineSync()!);
 print('you age is ${DateTime.now().year - year}');
 print('//////////////////////////////////////////////');
 //------------------------
-  //هيحال تنفيذ الكود و لو في اخطاء هيطبع كود catch
+  //هيحاول تنفيذ الكود و لو في اخطاء هيطبع كود catch
 try{
   stdout.write('Enter your num : ');
   var x = stdin.readLineSync();
