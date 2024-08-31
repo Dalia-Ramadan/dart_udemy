@@ -73,5 +73,5 @@ print('r = $r');
   print('r.floor() = ${r.floor()}'); // (5.5 >> 5) , (5.4 >> 5) ,(5.9 >> 5)
   print('r.truncate() = ${r.truncate()}'); // بتقرب للعدد الاقرب من الصفر
   print('r.ceil() = ${r.ceil()}'); // (5.5 >> 6) , (5.4 >> 6) ,(5.9 >> 6)
-  print('r.remainder(s1) = ${r.remainder(s1)}'); // r - s1
+  print('r.remainder(s1) = ${r.remainder(s1)}'); // r % s1
 }
