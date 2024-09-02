@@ -89,6 +89,7 @@ print('r = $r');
   print('////////////////////////////////////////////////');
   ///////////////////////////////////////////////////////////////////////////Strings methods
 var s = 'dart';
+print('s = $s');
 print('s.isEmpty >> ${s.isEmpty}');
 print('s.length >> ${s.length}');
 print('s.isNotEmpty >> ${s.isNotEmpty}');
@@ -97,5 +98,54 @@ print('s.toUpperCase() >> ${s.toUpperCase()}');
 print('s.toLowerCase() >> ${s.toLowerCase()}');
 print('s.contains(a) >> ${s.contains('a')}');
 print('s.endsWith(r) >> ${s.endsWith('r')}');
+print('s.replaceRange(0, 2, ad) >> ${s.replaceRange(0, 2, 'ad')}');
+print('s.replaceFirst(r, s) >> ${s.replaceFirst('r', 's')}');
+print(s.replaceAll('r', 'as'));
+//-------------------------------------
+var t = '             s*ds*sd*f*e*w*v*ju';
+var t1 = t.split('*');
+print(t1);
+var t2 = t1.join('-');
+print(t2);
+var t3 = t2.replaceAll('-', '');
+print(t3.trim());
+  //////////////////////////////////////////////////////////////////////////
+  print('////////////////////////////////////////////////');
+  print('////////////////////////////////////////////////');
+  print('////////////////////////////////////////////////');
+  print('////////////////////////////////////////////////');
+  print('////////////////////////////////////////////////');
+  print('////////////////////////////////////////////////');
+  print('////////////////////////////////////////////////');
+  print('////////////////////////////////////////////////');
+  ///////////////////////////////////////////////////////////////////////////Lists
+var list = [1,2,3,4,5,6,7,8,9];
+  print('list >> $list ');
+  print('list[0] >> ${list[0]}');
+  print('list[6] >> ${list[6]}');
+//------------------------
+  print('list.first >> ${list.first}');
+  print('list.last >> ${list.last}');
+  print('list.reversed >> ${list.reversed}');
+list[5] = 5;
+  print('list >> $list');
+list.add(63);
+  print('list >> $list');
+list.addAll([55,66,88,99]);
+  print('list >> $list');
+list.insert(6, 44);
+  print('list >> $list');
+list.insertAll(8, [33,333,3333]);
+  print('list >> $list');
+list.remove(1);
+  print('list >> $list');
+list.removeAt(3);
+  print('list >> $list');
+list.removeLast();
+  print('list >> $list');
+list.removeRange(2, 4);
+  print('list >> $list');
+list.replaceRange(3, 5, [99,85,69]);
+  print('list >> $list');
 
 }
