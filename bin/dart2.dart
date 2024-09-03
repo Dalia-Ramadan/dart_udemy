@@ -147,5 +147,36 @@ list.removeRange(2, 4);
   print('list >> $list');
 list.replaceRange(3, 5, [99,85,69]);
   print('list >> $list');
+//----------------------------------------
+var list1 = [4,5,6,7,8,'dart',9,10];
+print('list1 >> $list1');
+for(var i = 1 ; i < list1.length ; i++){
+  print(list1[i]);
+}
+print('////////////1//');
+for (var i in list1){
+  print(i);
+}
+  print('////////////2//');
+list1.forEach((i){
+print(i);
+});
+//-------------------------
+  var list2 = [9,6,4,3,2,1,8,5];
+  print('list2.indexOf(5) >> ${list2.indexOf(5)}');
+  print('list2.indexOf(2) >> ${list2.indexOf(2)}');
+  print('list2.indexOf(9) >> ${list2.indexOf(9)}');
+  print('list2.length >> ${list2.length}');
+//---------------------------
+  List<int> list3 = [1,2,3,5,6,8,9,7,4];
+  print('list3 >> $list3');
+  //-------
+  for(var i in list3){
+    print(i);
+  }
+//-----------------------------------------------
+  print('/////////////////////////////////////');
+  print('/////////////////////////////////////');
+  print('/////////////////////////////////////');
 
 }
