@@ -199,5 +199,43 @@ print('////////////////////////////////////');
 print('////////////////////////////////////');
 print('////////////////////////////////////');
 ///////////////////////////////////////////Sets
+Set z = {1,2,3,4,5,6,7,8};
+  print('z (as Set) >> $z');
+List d = z.toList();
+  print('d = z (as List) >> $d');
+z.add(11);
+  print('z.length >> ${z.length}');
+  print('z >> $z');
+  print('z.length >> ${z.length}');
+  print('z.first >> ${z.first}');
+  print('z.last >> ${z.last}');
+  print('z.isEmpty >> ${z.isEmpty}');
+  print('z.isNotEmpty >> ${z.isNotEmpty}');
+  print('z.elementAt(5) >> ${z.elementAt(5)}');
+  print('z.contains(9) >> ${z.contains(9)}');
+  print('z.remove(5) >> ${z.remove(5)}');
+  print('z >> $z');
+  z.clear();
+  print('z >> $z');
+  //----------------------------
+  Set k = {4,6,8};
+  k.forEach((i){
+    print(i);
+  });
+  //----------------------------
+  Set q = {1,2,3,4};
+  Set o = {2,4,6,5};
+  print('q.difference(o) >> ${q.difference(o)}');
+  print('q.intersection(o) >> ${q.intersection(o)}');
+  print('o.difference(q) >> ${o.difference(q)}');
+  print('q.union(o) >> ${q.union(o)}');
+  //-------------------------------
+  print('///////////////////////////////////////////');
+  print('///////////////////////////////////////////');
+  print('///////////////////////////////////////////');
+  print('///////////////////////////////////////////');
+  print('///////////////////////////////////////////');
+  //----------------------------------
+  ///////////////////////////////////////////Maps
 
 }
