@@ -237,5 +237,29 @@ z.add(11);
   print('///////////////////////////////////////////');
   //----------------------------------
   ///////////////////////////////////////////Maps
-
+Map<String,int> j = {
+  'Ali' : 90,
+  'Mohamed' : 95
+};
+print('j >> $j');
+print('''j['Ali'] >> ${j['Ali']}''');
+print('j.keys >> ${j.keys}');
+print('j.values >> ${j.values}');
+print('j.entries >> ${j.entries}');
+j.addAll({'A': 80 , 'D' : 95});
+print('j >> $j');
+    //-----------
+print('''j.containsKey('l') >> ${j.containsKey('l')}''');
+print('j.containsValue(95) >> ${j.containsValue(95)}');
+j.remove('A');
+print('j >> $j');
+// j.clear();
+// print('j >> $j');
+    //-------------
+  j.forEach((i,j){
+    print('$i : $j');
+  });
+  //----------------------------------------
+//////////////////////////////////////////////
+/////////////////////////////////////////////
 }
