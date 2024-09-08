@@ -172,7 +172,7 @@ String name2 = 'dart';
 var v5 = name2 ?? 'dart1';
 print(v5);
 //--------------------
-  String? name3 = null ;
+  String? name3 ;
   var v6 = name3 ?? 'dart2';
   print(v6);
 ///////////////////////////////////////

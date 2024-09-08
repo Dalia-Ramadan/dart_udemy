@@ -1,8 +1,7 @@
 import 'dart:math';
-import 'dart:io';
 void main(){
   //degree app
-  var degree = new Random().nextInt(100);
+  var degree = Random().nextInt(100);
   print(degree);
   if(degree >= 90 ) {
     print("A+");
@@ -158,9 +157,9 @@ for (var i in list1){
   print(i);
 }
   print('////////////2//');
-list1.forEach((i){
+for (var i in list1) {
 print(i);
-});
+}
 //-------------------------
   var list2 = [9,6,4,3,2,1,8,5];
   print('list2.indexOf(5) >> ${list2.indexOf(5)}');
@@ -219,9 +218,9 @@ z.add(11);
   print('z >> $z');
   //----------------------------
   Set k = {4,6,8};
-  k.forEach((i){
+  for (var i in k) {
     print(i);
-  });
+  }
   //----------------------------
   Set q = {1,2,3,4};
   Set o = {2,4,6,5};
