@@ -13,7 +13,6 @@ class Human{
       print('lName = $lName');
       print('age = $age');
     }
-
 }
 void main() {
   // var ob = Human();
