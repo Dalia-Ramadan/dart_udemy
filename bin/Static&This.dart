@@ -16,6 +16,7 @@ class Human{
 }
 void main() {
   // var ob = Human();
+  
   Human ob = Human(); // بنعرف ال object ان نوعه  Human
   ob.info('Dalia', 'Ramadan', 20);
   print('--------------------');
